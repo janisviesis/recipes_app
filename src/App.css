@@ -5,3 +5,9 @@ body {
 .text-slanted {
     font-family: 'Courgette', cursive;
 }
+
+input[type="text"], textarea {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
