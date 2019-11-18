@@ -95,7 +95,10 @@ export default class App extends Component {
             details_id: id
         });
 
-        window.scrollTo(-500, 0);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
     };
 
     handleChange = e => {
