@@ -94,6 +94,8 @@ export default class App extends Component {
             pageIndex: index,
             details_id: id
         });
+
+        window.scrollTo(-500, 0);
     };
 
     handleChange = e => {

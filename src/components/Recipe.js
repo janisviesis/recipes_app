@@ -22,8 +22,8 @@ export default class Recipe extends Component {
                         style={{ height: "14rem" }}/>
                         <div className="card-body text-capitalize">
                             <h6>
-                                { label.length < 30 ? `${label}` :
-                                `${label.substring(0, 35)}...` }
+                                { label.length < 20 ? `${label}` :
+                                `${label.substring(0, 25)}...` }
                             </h6>
                             <h6 className="text-warning text-slanted">
                                 provided by { source }
