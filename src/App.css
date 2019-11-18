@@ -1,9 +1,10 @@
 body {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Ibarra Real Nova', serif !important;
 }
 
 .text-slanted {
-    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
 }
 
 input[type="text"], textarea {
