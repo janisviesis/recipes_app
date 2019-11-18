@@ -30,7 +30,7 @@ export default class RecipeList extends Component {
                                 <h1 className="text-slanted">receipe list</h1>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row justify-content-center">
                             {error ? <h1 className="text-danger text-center rm">
                             {error}</h1> : recipes.map(recipe => {
                                 return (

@@ -39,7 +39,7 @@ export default class App extends Component {
                     this.setState({
                         error: ''
                     });
-                }, 2000);
+                }, 3000);
 
             } else {
 
